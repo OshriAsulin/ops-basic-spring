@@ -90,7 +90,7 @@ add text
 delete lines
 save
 
-chmod 007 3.txt
+sudo chmod 700 3.txt
 cat 3.txt
 
 exit
