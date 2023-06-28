@@ -180,6 +180,9 @@ now with ssh
 
 df -h
 find . -type f -exec du -ah {} + | sort -rh | head -n 10
+
+updated command- show the most bigger files in the disk 
+sudo find / -type f -exec du -ah {} + | sort -rh | head -n 10
 ```
 
 
